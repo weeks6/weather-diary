@@ -1,0 +1,25 @@
+.day-note__input {
+  width: 100%;
+  padding: 0;
+  resize: none;
+  background-color: transparent;
+  color: var(--text-black);
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57px;
+  border: none;
+  outline: none;
+}
+
+.day-note__input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--text-black);
+  mix-blend-mode: overlay;
+  opacity: 1; /* Firefox */
+}
+
+.day-note__input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  mix-blend-mode: overlay;
+}

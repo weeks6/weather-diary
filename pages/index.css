@@ -29,3 +29,8 @@
 @import "../blocks/date-info/__month/date-info__month.css";
 @import "../blocks/date-info/__year/date-info__year.css";
 @import "../blocks/date-info/__inner/date-info__inner.css";
+
+/* day note */
+@import "../blocks/day-note/day-note.css";
+@import "../blocks/day-note/__form/day-note__form.css";
+@import "../blocks/day-note/__input/day-note__input.css";
