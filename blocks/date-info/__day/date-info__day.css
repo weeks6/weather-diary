@@ -1,0 +1,7 @@
+.date-info__day {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 42px;
+  color: var(--text-black);
+}

@@ -17,7 +17,15 @@
 @import "../blocks/button/__icon/button__icon.css";
 @import "../blocks/button/_type/button_type_calendar.css";
 @import "../blocks/button/_type/button_type_color-picker.css";
+@import "../blocks/button/_type/button_type_draw-menu.css";
 
 /* color picker */
 @import "../blocks/color-picker/color-picker.css";
 @import "../blocks/color-picker/__item/color-picker__item.css";
+
+/* date info */
+@import "../blocks/date-info/date-info.css";
+@import "../blocks/date-info/__day/date-info__day.css";
+@import "../blocks/date-info/__month/date-info__month.css";
+@import "../blocks/date-info/__year/date-info__year.css";
+@import "../blocks/date-info/__inner/date-info__inner.css";

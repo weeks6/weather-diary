@@ -1,0 +1,5 @@
+.date-info__inner {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+}
