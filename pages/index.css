@@ -44,3 +44,8 @@
 @import "../blocks/week-list/__item/week-list__item.css";
 @import "../blocks/day-list/day-list.css";
 @import "../blocks/day-list/day-list__item/day-list__item.css";
+
+/* day note */
+@import "../blocks/day-note/day-note.css";
+@import "../blocks/day-note/__form/day-note__form.css";
+@import "../blocks/day-note/__input/day-note__input.css";
