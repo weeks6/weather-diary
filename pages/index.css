@@ -49,3 +49,9 @@
 @import "../blocks/day-note/day-note.css";
 @import "../blocks/day-note/__form/day-note__form.css";
 @import "../blocks/day-note/__input/day-note__input.css";
+
+/* weather */
+@import "../blocks/weather/weather.css";
+@import "../blocks/weather/__location/weather__location.css";
+@import "../blocks/weather/__container/weather__container.css";
+@import "../blocks/weather/__content/weather__content.css";

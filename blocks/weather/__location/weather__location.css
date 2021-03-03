@@ -1,0 +1,18 @@
+.weather__location {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.weather__location::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url("../../../images/icons/location.svg");
+  background-size: 24px 24px;
+}
