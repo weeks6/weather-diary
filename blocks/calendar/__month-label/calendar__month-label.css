@@ -1,0 +1,8 @@
+.calendar__month-label {
+  margin: 0;
+  color: var(--text-black);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  flex-basis: 80px;
+}

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./pages/index.css ">
     <title>Weather Diary</title>
 </head>
-<body>
+<body class="page page_overflow">
     <main class="main">
         <header class="header container">
             <section class="header__side">
@@ -31,5 +31,39 @@
             </div>
         </section>
     </main>
+    <div class="calendar__wrapper">
+        <div class="calendar__actions">
+            <div class="container">
+                <button class="button button__icon button_type_close"></button>
+            </div>
+        </div>
+        <div class="calendar__content">
+            <div class="container">
+                <ul class="calendar" id="calendar-container">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <template id="calendar-month-template">
+        <li class="calendar__month">
+            <h3 class="calendar__month-label"></h3>
+            <div class="calendar__month-content">
+                <ul class="week-list">
+                    <li class="week-list__item">S</li>
+                    <li class="week-list__item">M</li>
+                    <li class="week-list__item">T</li>
+                    <li class="week-list__item">W</li>
+                    <li class="week-list__item">T</li>
+                    <li class="week-list__item">F</li>
+                    <li class="week-list__item">S</li>
+                </ul>
+                <ul class="day-list">
+                    <!-- <li class="day-list__item"></li> -->
+                </ul>
+            </div>
+        </li>
+    </template>
+    <script src="./scripts/calendar.js"></script>
 </body>
 </html>

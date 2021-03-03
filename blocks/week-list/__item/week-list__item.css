@@ -1,0 +1,9 @@
+.week-list__item {
+  color: var(--text-black);
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  /* flex-grow: 1; */
+  width: calc(100% / 7);
+  text-align: start;
+}

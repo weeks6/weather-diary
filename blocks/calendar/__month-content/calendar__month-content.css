@@ -1,0 +1,6 @@
+.calendar__month-content {
+  display: flex;
+  flex-direction: column;
+  width: 76%;
+  margin-left: 8px;
+}

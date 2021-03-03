@@ -5,6 +5,7 @@
   outline: none;
   cursor: pointer;
   transition: opacity 0.2s ease-in-out;
+  display: block;
 }
 
 .button:focus {

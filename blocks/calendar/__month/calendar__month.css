@@ -1,0 +1,9 @@
+.calendar__month {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.calendar__month:first-child {
+  margin-top: 0;
+}

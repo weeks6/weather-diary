@@ -1,0 +1,19 @@
+.day-list__item {
+  color: var(--text-black);
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  display: block;
+  /* flex-grow: 1; */
+  width: calc(100% / 7);
+  /* min-width: 32px; */
+  min-height: 32px;
+}
+
+.day-list__item_passive {
+  opacity: 0.3;
+}
+
+.day-list__item_active {
+  font-weight: 700 !important;
+}
