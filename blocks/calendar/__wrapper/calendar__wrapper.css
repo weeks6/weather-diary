@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   /* переменную бы запихнуть сюда */
   background-color: #fff;
   animation-fill-mode: forwards;
