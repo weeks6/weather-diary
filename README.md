@@ -1,4 +1,5 @@
 # Weather Diary
+## Каникулярная работа [Yandex.Praktikum](https://praktikum.yandex.ru)
 Проект "Погодный дневник" - прогноз погоды + ежедневные заметки.
 
 ## Список дел
